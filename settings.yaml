@@ -1,0 +1,8 @@
+# Настройки
+logger:
+      loggerConfig: "[%(asctime)s] [%(levelname)s] [%(threadName)s] [%(process)s] [%(message)s]"
+      loggerFile: serverLog.log
+dataBase:
+         nameDB: fileserver_database
+         admin: admin
+         password: 12345
